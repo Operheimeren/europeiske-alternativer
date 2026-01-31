@@ -1,0 +1,23 @@
+{
+  "title": "Personvernerklæring",
+  "metaDescription": "Les hvordan Europeiske Alternativer beskytter ditt personvern. Vi bruker kun anonym statistikk for å forbedre brukeropplevelsen.",
+  "intro": "Vi i europeiskealternativer.no er opptatt av personvernet ditt og ønsker å være åpne om hvordan vi behandler data.",
+  "sections": [
+    {
+      "title": "Hva samler vi inn?",
+      "content": "Vi samler ikke inn personopplysninger som navn, e-postadresse eller annen direkte identifiserbar informasjon. Vi bruker heller ikke informasjonskapsler (cookies) på nettsiden."
+    },
+    {
+      "title": "Bruk av analyseverktøy",
+      "content": "Vi bruker den europeiske tjenesten Plausible Analytics for å forstå hvordan nettsiden vår brukes. Plausible er et personvernvennlig analyseverktøy som ikke bruker cookies og ikke lagrer personopplysninger.<br><br>Plausible samler inn anonym og aggregert statistikk, som antall besøkende og sidevisninger, hvilke sider som besøkes, hvilke lenker som klikkes på, hvilke kilder (refererende nettsteder) brukerne kommer fra, samt grov geografisk plassering, for eksempel hvilket land brukeren befinner seg i. Denne informasjonen kan ikke brukes til å identifisere deg som enkeltperson."
+    },
+    {
+      "title": "Dine rettigheter",
+      "content": "Siden vi ikke samler inn eller lagrer personopplysninger, trenger du ikke samtykke til cookies, og det er ingen personlige data som kan knyttes til deg."
+    },
+    {
+      "title": "Kontakt oss",
+      "content": "Denne nettsiden driftes av europeiskealternativer.no. Vi er ansvarlige for behandlingen av data som samles inn på nettsiden. Du kan kontakte oss på kontakt@europeiskealternativer.no dersom du har spørsmål eller ønsker mer informasjon."
+    }
+  ]
+}

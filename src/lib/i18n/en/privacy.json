@@ -1,0 +1,23 @@
+{
+  "title": "Privacy Policy",
+  "metaDescription": "Read how European Alternatives protects your privacy. We only use anonymous statistics to improve the user experience.",
+  "intro": "At europeiskealternativer.no, we care about your privacy and want to be transparent about how we handle data.",
+  "sections": [
+    {
+      "title": "What do we collect?",
+      "content": "We do not collect personal information such as names, email addresses, or other directly identifiable data. We also do not use cookies on this website."
+    },
+    {
+      "title": "Use of analytics tools",
+      "content": "We use the European service Plausible Analytics to understand how our website is used. Plausible is a privacy-friendly analytics tool that does not use cookies and does not store personal data.<br><br>Plausible collects anonymous and aggregated statistics, such as the number of visitors and page views, which pages are visited, which links are clicked, what sources (referring websites) users come from, and rough geographic location, such as which country the user is in. This information cannot be used to identify you as an individual."
+    },
+    {
+      "title": "Your rights",
+      "content": "Since we do not collect or store personal data, you do not need to consent to cookies, and there is no personal information that can be linked to you."
+    },
+    {
+      "title": "Contact us",
+      "content": "This website is operated by europeiskealternativer.no. We are responsible for the handling of any data collected on the website. You can contact us at kontakt@europeiskealternativer.no if you have any questions or would like more information."
+    }
+  ]
+}

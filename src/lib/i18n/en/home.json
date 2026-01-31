@@ -1,0 +1,30 @@
+{
+  "title": "Discover the best European alternatives",
+  "metaDescription": "European alternatives to popular digital services. Explore safe and privacy-friendly solutions developed in Europe.",
+  "whyTitle": "Why choose European? 🤔",
+  "whyIntro": "Interest in European services is growing — for good reason. Here's why you should consider them, too:",
+  "reasons": [
+    "<strong>Consumer power</strong>: Your choices influence which services and values gain ground.",
+    "<strong>Strong privacy</strong>: Your data is protected by Europe's privacy laws (GDPR).",
+    "<strong>Data security</strong>: All storage and processing take place under European control and regulation.",
+    "<strong>Support for European businesses</strong>: You're fueling innovation and creating jobs in Europe."
+  ],
+  "alternativesTitle": "Alternative Software 🚀",
+  "alternativesIntro": "We've curated the best European alternatives on the market, with links so you can easily explore them further. We continuously add new alternatives.",
+  "alternativesOutro": "We update the list continuously...",
+  "categories": {
+    "aiAssistants": "AI assistants 🤖",
+    "emailServices": "Email Services ✉️",
+    "musicStreaming": "Music Streaming 🎵",
+    "browser": "Browser 🌐",
+    "cloudStorage": "Cloud Storage ☁️",
+    "socialMedia": "Social Media 👥",
+    "searchEngines": "Search Engines 🌐"
+  },
+  "alternative": {
+    "country": "Origin:",
+    "alternativeTo": "Alternative to:",
+    "website": "Website:",
+    "other": "Other:"
+  }
+}

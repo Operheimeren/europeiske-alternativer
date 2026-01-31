@@ -1,0 +1,30 @@
+{
+  "title": "Europeiske alternativer til digitale tjenester",
+  "metaDescription": "Europeiske alternativer til kjente digitale tjenester. Utforsk trygge og personvernvennlige løsninger utviklet i Europa.",
+  "whyTitle": "Hvorfor velge europeisk? 🤔",
+  "whyIntro": "Interessen for europeiske tjenester er økende, og det med god grunn. Her er noen av hovedårsakene til at du også bør vurdere europeiske tjenester:",
+  "reasons": [
+    "<strong>Forbrukermakt</strong>: Dine valg påvirker hvilke tjenester og verdier som vinner frem.",
+    "<strong>Sterkt personvern</strong>: Dataene dine beskyttes av Europas personvernlover (GDPR).",
+    "<strong>Datasikkerhet</strong>: All lagring og behandling av data skjer under europeisk kontroll og regulering.",
+    "<strong>Støtte til europeisk næringsliv</strong>: Du bidrar til innovasjon og arbeidsplasser i Europa."
+  ],
+  "alternativesTitle": "Alternativ programvare 🚀",
+  "alternativesIntro": "Vi har samlet de beste europeiske alternativene på markedet, med lenker så du enkelt kan utforske dem videre. Vi legger til nye alternativer fortløpende.",
+  "alternativesOutro": "Vi oppdaterer listen fortløpende...",
+  "categories": {
+    "aiAssistants": "AI-assistenter 🤖",
+    "emailServices": "E-posttjenester ✉️",
+    "musicStreaming": "Musikkstrømming 🎵",
+    "browser": "Nettleser 🌐",
+    "cloudStorage": "Skylagring ☁️",
+    "socialMedia": "Sosiale medier 👥",
+    "searchEngines": "Søkemotorer 🌐"
+  },
+  "alternative": {
+    "country": "Opprinnelse:",
+    "alternativeTo": "Alternativ til:",
+    "website": "Nettside:",
+    "other": "Annet:"
+  }
+}
