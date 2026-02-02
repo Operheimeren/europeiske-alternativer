@@ -30,7 +30,7 @@
   <div style="grid-column: 1 / span 3;" class="info-alt-title">
     {t.country}
   </div>
-  <div style="grid-column: 4;" class="info-alt-text">
+  <div style="grid-column: 4 / span 3;" class="info-alt-text">
     {alternative.country}
   </div>
 

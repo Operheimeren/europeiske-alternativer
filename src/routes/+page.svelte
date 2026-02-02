@@ -114,8 +114,6 @@
   {#each getAlternativesByType(categoryTypes.searchEngines) as alternative}
     <AlternativeCard {alternative} />
   {/each}
+    
 
-  <div class="info-text-outro">
-    <span class="info-text-span">{t.alternativesOutro}</span>
-  </div>
 </div>
