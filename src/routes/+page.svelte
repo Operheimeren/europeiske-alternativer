@@ -91,7 +91,7 @@
     <AlternativeCard {alternative} />
   {/each}
 
-  <!-- Browser -->
+  <!-- Browsers -->
   <div class="sub-title">{t.categories.browser}</div>
   {#each getAlternativesByType(categoryTypes.browser) as alternative}
     <AlternativeCard {alternative} />
@@ -115,5 +115,7 @@
     <AlternativeCard {alternative} />
   {/each}
     
-
+  <div class="info-text-outro">
+    <span class="info-text-span">{t.alternativesOutro}</span>
+  </div>
 </div>
