@@ -1,6 +1,7 @@
 <script>
   import { currentLanguage } from '$lib/stores/language';
   import { translations } from '$lib/i18n';
+  import { base } from '$app/paths';
 
   let showMenu = false;
 
@@ -30,7 +31,7 @@
   <img 
     id="language-flag"
     class="flag"
-    src="/logo/flags/{$currentLanguage}.png"
+    src="{base}/logo/flags/{$currentLanguage}.png"
     alt="{$currentLanguage === 'no' ? 'Norsk' : 'English'} flag"
   />
   
@@ -47,12 +48,12 @@
   {#if showMenu}
     <div class="language-menu" on:click|stopPropagation>
       <div class="language-menu-row" on:click={() => selectLanguage('en')} role="button" tabindex="0">
-        <img class="flag-menu-item" src="/logo/flags/en.png" alt="English flag" />
+        <img class="flag-menu-item" src="{base}/logo/flags/en.png" alt="English flag" />
         <span class="language-menu-text">English</span>
       </div>
 
       <div class="language-menu-row" on:click={() => selectLanguage('no')} role="button" tabindex="0">
-        <img class="flag-menu-item" src="/logo/flags/no.png" alt="Norwegian flag" />
+        <img class="flag-menu-item" src="{base}/logo/flags/no.png" alt="Norwegian flag" />
         <span class="language-menu-text">Norsk</span>
       </div>
     </div>

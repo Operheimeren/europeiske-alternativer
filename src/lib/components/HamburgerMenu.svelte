@@ -2,6 +2,7 @@
   import { currentLanguage } from '$lib/stores/language';
   import { translations } from '$lib/i18n';
   import { goto } from '$app/navigation';
+  import { base } from '$app/paths';
 
   let showMenu = false;
   let showLangMenu = false;
@@ -20,7 +21,7 @@
 
   function navigateTo(path) {
     closeMenu();
-    goto(path);
+    goto(`${base}${path}`);
   }
 
   function toggleLangMenu(e) {
@@ -110,7 +111,7 @@
           tabindex="0"
           on:keydown={(e) => e.key === 'Enter' && selectLanguage('en')}
         >
-          <img class="flag-submenu-item" src="/logo/flags/en.png" alt="flag" />
+          <img class="flag-submenu-item" src="{base}/logo/flags/en.png" alt="flag" />
           <span>English</span>
         </div>
 
@@ -121,7 +122,7 @@
           tabindex="0"
           on:keydown={(e) => e.key === 'Enter' && selectLanguage('no')}
         >
-          <img class="flag-submenu-item" src="/logo/flags/no.png" alt="flag" />
+          <img class="flag-submenu-item" src="{base}/logo/flags/no.png" alt="flag" />
           <span>Norsk</span>
         </div>
       </div>

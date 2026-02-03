@@ -4,6 +4,7 @@
   import { goto } from '$app/navigation';
   import LanguageSelector from './LanguageSelector.svelte';
   import HamburgerMenu from './HamburgerMenu.svelte';
+  import { base } from '$app/paths';
 
   $: t = translations[$currentLanguage].common;
 </script>
@@ -12,22 +13,22 @@
   <div style="grid-column: 1;">
     <img 
       class="top-container-logo" 
-      src="/logo/logo/logo_no.png" 
+      src="{base}/logo/logo/logo_no.png" 
       alt="Logo"
-      on:click={() => goto('/')}
+      on:click={() => goto(`${base}/`)}
       role="button"
       tabindex="0"
-      on:keydown={(e) => e.key === 'Enter' && goto('/')}
+      on:keydown={(e) => e.key === 'Enter' && goto(`${base}/`)}
     />
   </div>
 
   <div 
     style="grid-column: 3 / span 2;" 
     class="top-container-title"
-    on:click={() => goto('/')}
+    on:click={() => goto(`${base}/`)}
     role="button"
     tabindex="0"
-    on:keydown={(e) => e.key === 'Enter' && goto('/')}
+    on:keydown={(e) => e.key === 'Enter' && goto(`${base}/`)}
   >
     {t.nav.alternatives}
   </div>
@@ -35,10 +36,10 @@
   <div 
     style="grid-column: 6;" 
     class="top-container-title"
-    on:click={() => goto('/krav')}
+    on:click={() => goto(`${base}/krav`)}
     role="button"
     tabindex="0"
-    on:keydown={(e) => e.key === 'Enter' && goto('/krav')}
+    on:keydown={(e) => e.key === 'Enter' && goto(`${base}/krav`)}
   >
     {t.nav.requirements}
   </div>
@@ -46,10 +47,10 @@
   <div 
     style="grid-column: 7 / span 2;" 
     class="top-container-title"
-    on:click={() => goto('/om-oss')}
+    on:click={() => goto(`${base}/om-oss`)}
     role="button"
     tabindex="0"
-    on:keydown={(e) => e.key === 'Enter' && goto('/om-oss')}
+    on:keydown={(e) => e.key === 'Enter' && goto(`${base}/om-oss`)}
   >
     {t.nav.about}
   </div>
