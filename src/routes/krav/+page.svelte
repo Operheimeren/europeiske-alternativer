@@ -1,6 +1,7 @@
 <script>
   import { currentLanguage } from '$lib/stores/language';
   import { translations } from '$lib/i18n';
+  import { base } from '$app/paths';
 
   $: t = translations[$currentLanguage].requirements;
 </script>
@@ -20,7 +21,7 @@
 
   {#each t.requirements as requirement}
     <div class="info-text">
-      <img class="check-emoji" src="/logo/emoji/check_green.png" alt="emoji" />
+      <img class="check-emoji" src="{base}/logo/emoji/check_green.png" alt="emoji" />
       <span>{requirement}</span>
     </div>
   {/each}

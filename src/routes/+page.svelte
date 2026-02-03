@@ -4,6 +4,7 @@
   import { translations } from '$lib/i18n';
   import AlternativeCard from '$lib/components/AlternativeCard.svelte';
   import alternativesData from '$lib/data/alternatives.json';
+  import { base } from '$app/paths';
 
   $: t = translations[$currentLanguage].home;
   $: filteredAlternatives = alternativesData.filter(
@@ -57,7 +58,7 @@
 
   {#each t.reasons as reason}
     <div class="info-text">
-      <img class="check-emoji" src="/logo/emoji/check_green.png" alt="emoji" />
+      <img class="check-emoji" src="{base}/logo/emoji/check_green.png" alt="emoji" />
       <span>{@html reason}</span>
     </div>
   {/each}
