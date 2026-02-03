@@ -103,7 +103,7 @@
         <AlternativeCard {alternative} />
     {/each}
 
-  <!-- Social Media -->
+  <!-- Social -->
   <div class="sub-title">{t.categories.socialMedia}</div>
   {#each getAlternativesByType(categoryTypes.socialMedia) as alternative}
     <AlternativeCard {alternative} />
