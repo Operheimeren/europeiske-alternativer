@@ -1,6 +1,7 @@
 <script>
   import { currentLanguage } from '$lib/stores/language';
   import { translations } from '$lib/i18n';
+  import { base } from '$app/paths';
 
   export let alternative;
 
@@ -11,7 +12,7 @@
   <img 
     style="grid-column: 1;" 
     class="company-logo" 
-    src="/logo/company/{alternative.logo}" 
+    src="{base}/logo/company/{alternative.logo}" 
     alt="Logo"
   />
   
