@@ -9,7 +9,7 @@
 
 <div class="bottom-container">
   <div style="grid-column: 1 / span 12;" class="bottom-container-text">
-    {t.footer.copyright}
+    {@html t.footer.copyright}
   </div>
 
   <div 
