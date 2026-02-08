@@ -465,12 +465,17 @@ button:hover, .top-container-title:hover {
   }
 
 .company-logo {
-    width: 100%;        
+    width: 35px;   
+    height: 35px;
+    object-fit: contain;
+    display: block;
+    /*     
     max-width: 30px;   
     height: auto;      
     display: flex;
     justify-content: center;
     align-items: center;
+    */
 }  
 
   .alternative-list {
