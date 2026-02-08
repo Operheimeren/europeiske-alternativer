@@ -98,7 +98,7 @@ h1 {
 }
 
 .bottom-container-text {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     font-size: 1em;
 }
 
@@ -106,7 +106,7 @@ h1 {
     cursor: pointer;
     font-size: 0.9em;
     text-decoration: underline;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
 }
 
 .top-container-logo {
