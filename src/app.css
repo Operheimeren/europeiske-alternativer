@@ -474,10 +474,12 @@ button:hover, .top-container-title:hover {
   }
 
 .company-logo {
-    width: 35px;   
-    height: 35px;
+    width: 32px;   
+    height: 32px;
     object-fit: contain;
     display: block;
+    align-items: center;
+    justify-content: center;
     /*     
     max-width: 30px;   
     height: auto;      
@@ -777,7 +779,7 @@ button:hover, .top-container-title:hover {
     }
 
     .info-text-req {
-        font-size: 0.92em;
+        font-size: 0.95em;
         justify-content: flex-start; 
         align-items: center;
         width: 100%;
@@ -828,6 +830,7 @@ button:hover, .top-container-title:hover {
     }
 
     .company-logo {
-        max-width: 20px; 
+        width: 25px;   
+        height: 25px;
     }
 }
