@@ -52,12 +52,12 @@
   <div class="title">{t.whyTitle}</div>
   <div class="black-line"></div>
   
-  <div class="info-text">
+  <div class="info-text-intro">
     <span class="info-text-span">{@html t.whyIntro}</span>
   </div>
 
   {#each t.reasons as reason}
-    <div class="info-text">
+    <div class="info-text-intro">
       <img class="check-emoji" src="{base}/logo/emoji/check_green.png" alt="emoji" />
       <span>{@html reason}</span>
     </div>

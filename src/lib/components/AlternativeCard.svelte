@@ -10,13 +10,13 @@
 
 <div class="alternative-list scroll-fade">
   <img 
-    style="grid-column: 1;" 
+    style="grid-column: 1 / span 3;" 
     class="company-logo" 
     src="{base}/logo/company/{alternative.logo}" 
     alt="Logo"
   />
   
-  <div style="grid-column: 2 / span 5;" class="alternative-title">
+  <div style="grid-column: 4 / span 3;" class="alternative-title">
     {alternative.company_name}
   </div>
 
@@ -28,33 +28,33 @@
 
   <div style="grid-column: 1 / span 6;"></div>
 
-  <div style="grid-column: 1 / span 3;" class="info-alt-title">
+  <div style="grid-column: 1 / span 2;" class="info-alt-title">
     {t.country}
   </div>
-  <div style="grid-column: 4 / span 3;" class="info-alt-text">
+  <div style="grid-column: 3 / span 10;" class="info-alt-text">
     {alternative.country}
   </div>
 
-  <div style="grid-column: 1 / span 3;" class="info-alt-title">
+  <div style="grid-column: 1 / span 2;" class="info-alt-title">
     {t.alternativeTo}
   </div>
-  <div style="grid-column: 4 / span 10;" class="info-alt-text">
+  <div style="grid-column: 3 / span 10;" class="info-alt-text">
     {alternative.alt_to}
   </div>
 
-  <div style="grid-column: 1 / span 3;" class="info-alt-title">
+  <div style="grid-column: 1 / span 2;" class="info-alt-title">
     {t.website}
   </div>
-  <div style="grid-column: 4 / span 4;" class="info-alt-text">
+  <div style="grid-column: 3 / span 4;" class="info-alt-text">
     <a href={alternative.website} target="_blank" rel="noopener noreferrer">
       {alternative.website}
     </a>
   </div>
 
-  <div style="grid-column: 1 / span 3;" class="info-alt-title">
+  <div style="grid-column: 1 / span 2;" class="info-alt-title">
     {t.other}
   </div>
-  <div style="grid-column: 4 / span 4;" class="info-alt-text">
+  <div style="grid-column: 3 / span 10;" class="info-alt-text">
     {alternative.other_info || ''}
   </div>
 

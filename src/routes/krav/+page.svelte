@@ -15,12 +15,12 @@
   <div class="title">{t.title}</div>
   <div class="black-line"></div>
 
-  <div class="info-text">
+  <div class="info-text-intro">
     <span class="info-text-span">{@html t.intro}</span>
   </div>
 
   {#each t.requirements as requirement}
-    <div class="info-text">
+    <div class="info-text-intro">
       <img class="check-emoji" src="{base}/logo/emoji/check_green.png" alt="emoji" />
       <span>{requirement}</span>
     </div>

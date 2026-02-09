@@ -433,10 +433,19 @@ button:hover, .top-container-title:hover {
 .info-text {
     display: flex;
     align-items: center; 
+    justify-content: center;
     gap: 0.5rem; 
     color: var(--text-color);
     margin-top: 0rem;
-  }
+}
+
+.info-text-intro {
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
+    color: var(--text-color);
+    margin-top: 0rem;
+}
 
 .info-text-outro {
     display: flex;
@@ -480,11 +489,10 @@ button:hover, .top-container-title:hover {
 
   .alternative-list {
     display: grid;
-    grid-template-columns: 10% 10% 9% 11% 11% 12% 24% 8% 5%;
+    grid-template-columns: 10% 14% 9% 9% 10% 13% 25% 7% 3%;
     grid-auto-rows: 20px;
     grid-row-gap: 5px;
     margin-top: 1.0rem;
-  
     padding: 10px;
     border: thin solid lightgrey;
     border-radius: 10px;
@@ -501,6 +509,7 @@ button:hover, .top-container-title:hover {
     font-weight: bold;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 0.7rem;
 }
 
