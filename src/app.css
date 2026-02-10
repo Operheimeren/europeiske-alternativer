@@ -810,7 +810,7 @@ button:hover, .top-container-title:hover {
         max-width: 420px; 
         height: 200px;
         grid-row-gap: 1px;
-        grid-template-columns: 10% 14% 9% 10% 10% 15% 25% 5% 2%;
+        grid-template-columns: 10% 16% 9% 10% 10% 15% 25% 3% 2%;
     }
 
     .alternative-title {
