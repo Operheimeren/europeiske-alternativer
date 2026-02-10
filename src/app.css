@@ -811,6 +811,7 @@ button:hover, .top-container-title:hover {
         height: 200px;
         grid-row-gap: 1px;
         grid-template-columns: 10% 18% 9% 14% 10% 15% 21% 1% 2%;
+        justify-content: flex-start;
     }
 
     .alternative-title {
