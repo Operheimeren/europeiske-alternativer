@@ -442,6 +442,7 @@ button:hover, .top-container-title:hover {
 .info-text-intro {
     display: flex;
     align-items: center; 
+    padding-bottom: 1rem;
     gap: 0.5rem; 
     color: var(--text-color);
     margin-top: 0rem;
@@ -810,7 +811,7 @@ button:hover, .top-container-title:hover {
         max-width: 420px; 
         height: 200px;
         grid-row-gap: 1px;
-        grid-template-columns: 10% 18% 5% 14% 10% 15% 21% 1% 6%;
+        grid-template-columns: 10% 18% 3% 14% 10% 15% 21% 1% 8%;
         justify-content: flex-start;
     }
 
