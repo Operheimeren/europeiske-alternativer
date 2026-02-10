@@ -405,5 +405,39 @@
         "company_guidelines": null,
         "language": "EN",
         "only": null
+    },
+    {
+        "id": "37",
+        "alt_id": "17",
+        "active": "1",
+        "company_name": "LibreOffice",
+        "type": "office_suite",
+        "category": "private",
+        "logo": "qwant.png",
+        "company_info": "Er en gratis og åpen kontorpakke for dokumenter, regneark og presentasjoner. Den er plattformuavhengig og utviklet med fokus på åpenhet og brukerkontroll.",
+        "country": "Tyskland (formelle stiftelsen)",
+        "alt_to": "Microsoft Office, Google Docs, Apple iWork",
+        "website": "https:\/\/www.libreoffice.org",
+        "other_info": "Har bidragsytere over hele verden",
+        "company_guidelines": null,
+        "language": "NO",
+        "only": null
+    },
+    {
+        "id": "38",
+        "alt_id": "17",
+        "active": "1",
+        "company_name": "LibreOffice",
+        "type": "office_suite",
+        "category": "private",
+        "logo": "qwant.png",
+        "company_info": "It is a free and open office suite for documents, spreadsheets and presentations. It is platform-independent and developed with a focus on openness and user control.",
+        "country": "Germany (registered foundation)",
+        "alt_to": "Microsoft Office, Google Docs, Apple iWork",
+        "website": "https:\/\/www.libreoffice.org",
+        "other_info": "Has contributors across the globex",
+        "company_guidelines": null,
+        "language": "EN",
+        "only": null
     }
 ]
