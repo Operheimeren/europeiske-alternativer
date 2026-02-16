@@ -18,7 +18,8 @@
     musicStreaming: 'music_streaming',
     cloudStorage: 'cloud_storage',
     socialMedia: 'social_media',
-    browser: 'browser'
+    browser: 'browser',
+    officeSuite: 'office_suite'
   };
 
  $: getAlternativesByType = (type) => {
@@ -83,6 +84,12 @@
   <!-- Email Services -->
   <div class="sub-title">{t.categories.emailServices}</div>
   {#each getAlternativesByType(categoryTypes.emailServices) as alternative}
+    <AlternativeCard {alternative} />
+  {/each}
+
+  <!-- Office Suite -->
+  <div class="sub-title">{t.categories.officeSuite}</div>
+  {#each getAlternativesByType(categoryTypes.officeSuite) as alternative}
     <AlternativeCard {alternative} />
   {/each}
 
