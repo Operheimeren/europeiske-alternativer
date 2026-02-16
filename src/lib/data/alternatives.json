@@ -541,5 +541,39 @@
         "company_guidelines": null,
         "language": "EN",
         "only": null
+    },
+    {
+        "id": "45",
+        "alt_id": "21",
+        "active": "1",
+        "company_name": "Qobuz",
+        "type": "music_streaming",
+        "category": "private",
+        "logo": "qobuz.png",
+        "company_info": "Er en tjeneste som setter artisten først, og tilbyr høyoppløselig lyd og et stort katalogutvalg.",
+        "country": "Frankrike",
+        "alt_to": "YouTube, Apple Music, Tidal",
+        "website": "https:\/\/www.qobuz.com",
+        "other_info": "Over 100 millioner sanger i høyeste kvalitet",
+        "company_guidelines": null,
+        "language": "NO",
+        "only": null
+    },
+    {
+        "id": "46",
+        "alt_id": "21",
+        "active": "1",
+        "company_name": "Qobuz",
+        "type": "music_streaming",
+        "category": "private",
+        "logo": "qobuz.png",
+        "company_info": "It is a service that puts the artist first and offers high-resolution audio along with a large catalogue.",
+        "country": "France",
+        "alt_to": "YouTube, Apple Music, Tidal",
+        "website": "https:\/\/www.qobuz.com",
+        "other_info": "Over 100 million songs in the highest quality",
+        "company_guidelines": null,
+        "language": "EN",
+        "only": null
     }
 ]
