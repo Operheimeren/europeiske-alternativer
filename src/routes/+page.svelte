@@ -20,7 +20,8 @@
     socialMedia: 'social_media',
     browser: 'browser',
     officeSuite: 'office_suite',
-    translator: 'translator'
+    translator: 'translator',
+    vpn: 'vpn'
   };
 
  $: getAlternativesByType = (type) => {
@@ -127,6 +128,12 @@
   <!-- Translator -->
   <div class="sub-title">{t.categories.translator}</div>
   {#each getAlternativesByType(categoryTypes.translator) as alternative}
+    <AlternativeCard {alternative} />
+  {/each}
+
+  <!-- VPN -->
+  <div class="sub-title">{t.categories.vpn}</div>
+  {#each getAlternativesByType(categoryTypes.vpn) as alternative}
     <AlternativeCard {alternative} />
   {/each}
     
