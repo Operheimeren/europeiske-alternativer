@@ -19,7 +19,8 @@
     cloudStorage: 'cloud_storage',
     socialMedia: 'social_media',
     browser: 'browser',
-    officeSuite: 'office_suite'
+    officeSuite: 'office_suite',
+    translator: 'translator'
   };
 
  $: getAlternativesByType = (type) => {
@@ -120,6 +121,12 @@
   <!-- Search Engines -->
   <div class="sub-title">{t.categories.searchEngines}</div>
   {#each getAlternativesByType(categoryTypes.searchEngines) as alternative}
+    <AlternativeCard {alternative} />
+  {/each}
+
+  <!-- Translator -->
+  <div class="sub-title">{t.categories.translator}</div>
+  {#each getAlternativesByType(categoryTypes.translator) as alternative}
     <AlternativeCard {alternative} />
   {/each}
     
