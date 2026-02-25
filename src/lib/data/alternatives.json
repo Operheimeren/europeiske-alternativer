@@ -11,7 +11,7 @@
         "country": "Tyskland",
         "alt_to": "Google, Bing, Yahoo",
         "website": "https:\/\/www.ecosia.org",
-        "other_info": "Bygger sin egen søkemoter",
+        "other_info": "Utvikler sin egen søkeindeks",
         "company_guidelines": "",
         "language": "NO",
         "only": null
@@ -202,7 +202,8 @@
         "company_guidelines": null,
         "language": "EN",
         "only": null
-    },      {
+    },      
+    {
         "id": "31",
         "alt_id": "14",
         "active": "1",
@@ -618,7 +619,7 @@
         "type": "browser",
         "category": "private",
         "logo": "waterfox.png",
-        "company_info": "En ersonvernfokusert nettleser bygget for avanserte brukere som verdsetter tilpasning og kontroll over sin nettopplevelse.",
+        "company_info": "En personvernfokusert nettleser bygget for avanserte brukere som verdsetter tilpasning og kontroll over sin nettopplevelse.",
         "country": "Storbritania",
         "alt_to": "Chrome, Edge, Safari, Firefox",
         "website": "https:\/\/www.waterfox.com",
@@ -640,6 +641,40 @@
         "alt_to": "Chrome, Edge, Safari, Firefox",
         "website": "https:\/\/www.waterfox.com",
         "other_info": "Based on Firefox and open source",
+        "company_guidelines": null,
+        "language": "EN",
+        "only": null
+    },
+       {
+        "id": "51",
+        "alt_id": "24",
+        "active": "1",
+        "company_name": "Ecosia Browser",
+        "type": "browser",
+        "category": "private",
+        "logo": "ecosia.png",
+        "company_info": "En nettleser som bruker overskuddet fra annonseinntekter til en mer bærekraftig digital hverdag med å plante trær og støtte klimaprosjekter.",
+        "country": "Tyskland",
+        "alt_to": "Chrome, Edge, Safari, Firefox",
+        "website": "https:\/\/www.ecosia.org/browser/",
+        "other_info": "Over 247 millioner trær er plantet til nå",
+        "company_guidelines": null,
+        "language": "NO",
+        "only": null
+    },
+    {
+        "id": "52",
+        "alt_id": "24",
+        "active": "1",
+        "company_name": "Ecosia Browser",
+        "type": "browser",
+        "category": "private",
+        "logo": "ecosia.png",
+        "company_info": "A privacy focused browser built for power users who value customization and control over their online experience.",
+        "country": "Germany",
+        "alt_to": "Chrome, Edge, Safari, Firefox",
+        "website": "https:\/\/www.ecosia.org/browser/",
+        "other_info": "Over 247 million trees have been planted so far",
         "company_guidelines": null,
         "language": "EN",
         "only": null
