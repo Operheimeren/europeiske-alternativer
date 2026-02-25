@@ -678,5 +678,40 @@
         "company_guidelines": null,
         "language": "EN",
         "only": null
-    }
+    },
+    {
+        "id": "53",
+        "alt_id": "25",
+        "active": "1",
+        "company_name": "Lumo AI",
+        "type": "AI_assistant",
+        "category": "private",
+        "logo": "lumo.png",
+        "company_info": "En AI-assistent fra Proton som leverer nøyaktig svar og er personelig tilpasset hvor samtalen er privat og kryptert. ",
+        "country": "Sveits",
+        "alt_to": "ChatGPT, Gemeni, Grok, CoPilot, Claude",
+        "website": "https:\/\/chat.mistral.ai\/chat",
+        "other_info": "Kombinerer flere AI-modeller",
+        "company_guidelines": null,
+        "language": "NO",
+        "only": null
+    },
+    {
+        "id": "54",
+        "alt_id": "25",
+        "active": "1",
+        "company_name": "Lumo AI",
+        "type": "AI_assistant",
+        "category": "private",
+        "logo": "lumo.png",
+        "company_info": "An AI assistant from Proton that provides accurate answers and is personally tailored, with conversations that are private and encrypted.",
+        "country": "Switzerland",
+        "alt_to": "ChatGPT, Gemeni, Grok, CoPilot, Claude",
+        "website": "https:\/chat.mistral.ai\/chat",
+        "other_info": "Combines multiple AI models",
+        "company_guidelines": null,
+        "language": "EN",
+        "only": null
+    }   
+   
 ]
