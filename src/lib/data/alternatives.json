@@ -746,6 +746,40 @@
         "company_guidelines": null,
         "language": "EN",
         "only": null
-    }   
+    },
+    {
+        "id": "57",
+        "alt_id": "27",
+        "active": "1",
+        "company_name": "Tuta Mail",
+        "type": "mail_service",
+        "category": "private",
+        "logo": "tuta.png",
+        "company_info": "En epost-tjeneste med fokus på personvern med innebygd ende-til-ende-kryptering. ",
+        "country": "Tyskland",
+        "alt_to": "Gmail, Hotmail, Outlook",
+        "website": "https:\/tuta.com",
+        "other_info": "Open source",
+        "company_guidelines": null,
+        "language": "NO",
+        "only": null
+    },      
+    {
+        "id": "58",
+        "alt_id": "27",
+        "active": "1",
+        "company_name": "Tuta Mail",
+        "type": "mail_service",
+        "category": "private",
+        "logo": "tuta.png",
+        "company_info": "An email service focused on privacy with built-in end-to-end encryption.",
+        "country": "Germany",
+        "alt_to": "Gmail, Hotmail, Outlook",
+        "website": "https:\/tuta.com",
+        "other_info": "Open source",
+        "company_guidelines": null,
+        "language": "EN",
+        "only": null
+    }      
    
 ]
